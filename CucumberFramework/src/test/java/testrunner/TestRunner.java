@@ -15,7 +15,7 @@ import managers.FileReaderManager;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="F:\\Selemnium Practice code Aug 2018\\CucumberFramework\\src\\test\\resources\\Feature\\login_test.feature"
+@CucumberOptions(features="C:\\Users\\dkunal\\git\\cucumber\\CucumberFramework\\src\\test\\resources\\Feature\\login_test.feature"
 ,glue= {"stepdefination"},plugin = { "com.cucumber.listener.ExtentCucumberFormatter:C:\\Users\\dkunal\\Desktop\\Top Coach\\cucumber-reports/report.html"},monochrome=true)
 public class TestRunner {
 	 

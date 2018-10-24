@@ -22,7 +22,7 @@ public class ConfigFileReader {
 	{
 		
 	try {
-		file = new File("F:\\Selemnium Practice code Aug 2018\\CucumberFramework\\config\\congiguration.properties");
+		file = new File("C:\\Users\\dkunal\\git\\cucumber\\CucumberFramework\\config\\congiguration.properties");
 		fis = new FileInputStream(file);
 		pro= new Properties();
 		pro.load(fis);
